@@ -2,8 +2,8 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "base/animations";
 @import "base/base";
+@import "base/animations";
 @import "base/typography";
 @import "base/utilities";
 
@@ -34,22 +34,6 @@ Dark green: #28b485
 */
 
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  // Defines 1 rem
-  font-size: 62.5%;
-}
-
-body {
-  box-sizing: border-box;
-}
 
 
 
